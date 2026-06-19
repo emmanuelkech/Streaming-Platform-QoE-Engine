@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from sqlalchemy import create_engine
 
 # Database Connection
-engine = create_engine('postgresql://postgres:umeanor01@localhost:5432/streaming_qoe_db')
+engine = create_engine('postgresql://postgres:your_password_here@localhost:5432/streaming_qoe_db')
 
 print("Generating streaming library dimensions...")
 
